@@ -30,7 +30,7 @@
             "id": 6,
             "model": "Macbook Pro",
             "year": 2014
-        },
+        }
     ],
     "employees": [
         {
@@ -68,6 +68,6 @@
             "firstName": "Mouse-F",
             "lastName": "Surname-F",
             "computerId": 1
-        },
+        }
     ]
 }
