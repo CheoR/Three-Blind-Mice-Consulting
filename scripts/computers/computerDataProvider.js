@@ -1,3 +1,11 @@
+/*
+  Object format.
+  {
+    "id": 1,
+    "model": "Macbook Pro",
+    "year": 2015
+  }
+*/
 let _computers = []
 
 export const useComputers = () => _computers.slice()
