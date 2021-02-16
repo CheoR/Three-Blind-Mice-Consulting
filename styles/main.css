@@ -88,3 +88,13 @@ header {
   border-radius: 10px;
   background: pink;
 }
+
+.employee__computer {
+  margin-top: 1em;
+  background: lightblue;
+  padding: 1em;
+}
+
+.employee__computer p {
+  margin: 1em auto;
+}
