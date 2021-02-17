@@ -104,7 +104,8 @@ header,
 
 .employee__computer,
 .employee__department,
-.employee__location {
+.employee__location,
+.employee__customers {
   background: lightblue;
   padding: 1em;
   border-bottom: 5px dashed gray;
@@ -117,6 +118,15 @@ header,
 }
 
 .employee__department span,
-.employee__location span {
+.employee__location span,
+.employee__customers span {
   text-transform: capitalize;
+}
+
+.customer {
+  background: pink;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
 }
