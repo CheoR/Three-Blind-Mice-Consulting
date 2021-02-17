@@ -112,5 +112,79 @@
             "id": 3,
             "office": "Memphis"
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "oh my zsh photography"
+        },
+        {
+            "id": 2,
+            "name": "merge conflict reconliation int"
+        },
+        {
+            "id": 3,
+            "name": "peggy pug's debugging service"
+        },
+        {
+            "id": 4,
+            "name": "beer bottle hank's lawn care"
+        },
+        {
+            "id": 5,
+            "name": "death comes for us all caskets"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 3
+        },
+        {
+            "id": 4,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 5
+        },
+        {
+            "id": 6,
+            "customerId": 3,
+            "employeeId": 6
+        },
+        {
+            "id": 7,
+            "customerId": 4,
+            "employeeId": 1
+        },
+        {
+            "id": 8,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 9,
+            "customerId": 5,
+            "employeeId": 3
+        },
+        {
+            "id": 10,
+            "customerId": 5,
+            "employeeId": 4
+        }
     ]
 }
