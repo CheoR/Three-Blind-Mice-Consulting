@@ -1,4 +1,5 @@
 export const Employee = ( employee ) => {
+
  return `
   <div class="employee">
    <header class="employee__name">
@@ -11,6 +12,9 @@ export const Employee = ( employee ) => {
    <section class="employee__department">
     <p>Dept: <span>${ employee.department.name }</span></p>
    </section>
+   <section class="employee__location">
+    <p>Cubicle location: <span>${ employee.location.office }</span></p>
+    </section>
   </div>
  `
 }

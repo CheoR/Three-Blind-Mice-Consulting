@@ -103,17 +103,20 @@ header,
 }
 
 .employee__computer,
-.employee__department {
+.employee__department,
+.employee__location {
   background: lightblue;
   padding: 1em;
   border-bottom: 5px dashed gray;
 }
 
 .employee__computer p,
-.employee__department p {
+.employee__department p,
+.employee__location p {
   margin-bottom: 1em;
 }
 
-.employee__department span {
+.employee__department span,
+.employee__location span {
   text-transform: capitalize;
 }
