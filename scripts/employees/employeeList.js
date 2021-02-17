@@ -8,9 +8,9 @@ const _render = ( employeesCollection ) => {
  const employees = employeesCollection.map(employee => Employee(employee)).join("")
  contentTarget.innerHTML = `
   <h2>Employees</h2>
-  <ul class="employees">
-   ${ employees }
-  </ul>
+  <div class="employee__roster">
+    ${ employees }
+  </div>
  `
 }
 
@@ -22,3 +22,7 @@ export const employeeList = () => {
    _render(employees)
   })
 }
+
+  // <ul class="employees">
+  //  ${ employees }
+  // </ul>
