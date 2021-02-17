@@ -19,7 +19,6 @@ export const employeeList = () => {
  getEmployees()
   .then(() => {
    const employees = useEmployees()
-   console.table(employees)
    _render(employees)
   })
 }
