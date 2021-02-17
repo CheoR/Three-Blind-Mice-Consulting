@@ -1,11 +1,16 @@
 export const Employee = ( employee ) => {
  return `
-  <li class="employee">
-   <h3>${ employee.firstName } ${ employee.lastName }</h3>
-   <div class="employee__computer">
+  <div class="employee">
+   <header class="employee__name">
+    <h3>${ employee.firstName } ${ employee.lastName }</h3>
+   </header>
+   <section class="employee__computer">
     <p>Computer Assigned: ${ employee.computer.model }</p>
     <p>Year: ${ employee.computer.year }</p>
-   </div>
-  </li>
+   </section>
+   <section class="employee__department">
+    <p>Dept: <span>${ employee.department.name }</span></p>
+   </section>
+  </div>
  `
 }

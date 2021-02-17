@@ -34,6 +34,7 @@ h6 {
 html,
 body {
   font-size: 10px;
+  height: 100vh;
 }
 
 h1 {
@@ -43,58 +44,76 @@ h1 {
 }
 
 header,
-#container {
+.container {
   width: 90%;
   margin: 0 auto;
 }
 
-header {
-  background: lightgreen;
-}
-
-#container {
+.container {
   background: pink;
-  display: flex;
-  justify-content: space-around;
+  height: 100hv;
 }
 
-.employees,
-.computers {
+.employees {
   background: lightblue;
-  width: 40%;
-}
-
-.employees h2,
-.computers h2 {
-  background: lightslategrey;
-  text-align: center;
-  padding: 0.4em;
-}
-
-.employees ul,
-.computers ul {
-  background: lightgreen;
-  width: 100%;
-  margin: 2em auto;
-  border: 2px dashed black;
-}
-
-.employee,
-.computer {
-  border: 2px dashed black;
   width: 80%;
-  margin: 1em auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.employees h2 {
+  background: gray;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.employee__roster {
+  border: 5px dashed black;
+  background: pink;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.employee {
+  background: lightgreen;
+  border: 5px dashed black;
+  margin: 1em 2em;
   padding: 1em;
   border-radius: 10px;
-  background: pink;
+  flex: 1 1 200px;
 }
 
-.employee__computer {
-  margin-top: 1em;
+.employee__name {
+  background: blue;
+  padding: 0.2em;
+  border-bottom: red;
+  margin: 1em;
+}
+
+.employee__name h3 {
+  background: pink;
+  padding: 1em;
+  border-bottom: black;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.employee__computer,
+.employee__department {
   background: lightblue;
   padding: 1em;
+  border-bottom: 5px dashed gray;
 }
 
-.employee__computer p {
-  margin: 1em auto;
+.employee__computer p,
+.employee__department p {
+  margin-bottom: 1em;
+}
+
+.employee__department span {
+  text-transform: capitalize;
 }

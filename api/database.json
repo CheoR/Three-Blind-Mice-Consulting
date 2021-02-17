@@ -37,37 +37,61 @@
             "id": 1,
             "firstName": "Mouse-A",
             "lastName": "Surname-A",
-            "computerId": 6
+            "computerId": 6,
+            "departmentId": 1
         },
         {
             "id": 2,
             "firstName": "Mouse-B",
             "lastName": "Surname-B",
-            "computerId": 5
+            "computerId": 5,
+            "departmentId": 2
         },
         {
             "id": 3,
             "firstName": "Mouse-C",
             "lastName": "Surname-C",
-            "computerId": 4
+            "computerId": 4,
+            "departmentId": 3
         },
         {
             "id": 4,
             "firstName": "Mouse-D",
             "lastName": "Surname-D",
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 4
         },
         {
             "id": 5,
             "firstName": "Mouse-E",
             "lastName": "Surname-E",
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 2
         },
         {
             "id": 6,
             "firstName": "Mouse-F",
             "lastName": "Surname-F",
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 1
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "accounting"
+        },
+        {
+            "id": 2,
+            "name": "sales"
+        },
+        {
+            "id": 3,
+            "name": "quality assurance"
+        },
+        {
+            "id": 4,
+            "name": "temps"
         }
     ]
 }
